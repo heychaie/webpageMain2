@@ -80,8 +80,7 @@ h3 {
     font-weight: 800;
 }
 header {
-    background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.90)), /* bottom, image */
-    url(heychaie.jpg);
+    background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.90));
     background-size: auto;
     background-position: center top;
     
@@ -141,9 +140,17 @@ header {
 .work h3 {
     padding: 4% 0;
   }
-.text-box {
+.text-box-left{
     float: left;
     text-align: left;
+    width: 480px;
+    background-color: #fff;
+    height: 100%;
+  }
+
+.text-box-right{
+    float: right;
+    text-align: right;
     width: 480px;
     background-color: #fff;
     height: 100%;
